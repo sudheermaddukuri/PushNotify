@@ -1,0 +1,111 @@
+2018-06-27 23:46:39 INFO  Application:28 - Starting push-notification server
+2018-06-27 23:46:43 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-27 23:46:46 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-27 23:46:46 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-27 23:46:46 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-27 23:51:21 INFO  Application:28 - Starting push-notification server
+2018-06-27 23:51:25 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-27 23:51:28 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-27 23:51:28 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-27 23:51:28 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-27 23:51:29 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-27 23:51:29 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-27 23:51:29 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-27 23:51:29 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-27 23:51:29 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-27 23:51:29 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-27 23:51:30 INFO  Application:36 - push-notification app started
+2018-06-27 23:51:30 INFO  Application:38 - notification service up and running
+2018-06-28 00:00:14 INFO  Application:28 - Starting push-notification server
+2018-06-28 00:00:18 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-28 00:00:21 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-28 00:00:21 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-28 00:00:21 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-28 00:00:23 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-28 00:00:23 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-28 00:00:23 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-28 00:00:23 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-28 00:00:23 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-28 00:00:23 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-28 00:00:24 INFO  Application:36 - push-notification app started
+2018-06-28 00:00:24 INFO  Application:38 - notification service up and running
+2018-06-28 00:22:12 INFO  Application:28 - Starting push-notification server
+2018-06-28 00:22:15 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-28 00:22:18 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-28 00:22:18 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-28 00:22:18 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-28 00:22:20 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-28 00:22:20 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-28 00:22:20 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-28 00:22:20 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-28 00:22:20 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-28 00:22:20 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-28 00:22:21 INFO  Application:36 - push-notification app started
+2018-06-28 00:22:21 INFO  Application:38 - notification service up and running
+2018-06-28 00:30:44 INFO  Application:28 - Starting push-notification server
+2018-06-28 00:30:48 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-28 00:30:51 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-28 00:30:51 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-28 00:30:51 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-28 00:30:53 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-28 00:30:53 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-28 00:30:53 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-28 00:30:53 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-28 00:30:53 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-28 00:30:53 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-28 00:30:54 INFO  Application:38 - push-notification app started
+2018-06-28 00:30:54 INFO  Application:40 - notification service up and running
+2018-06-28 00:33:10 INFO  Application:28 - Starting push-notification server
+2018-06-28 00:33:13 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-28 00:33:16 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-28 00:33:16 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-28 00:33:16 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-28 00:33:18 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-28 00:33:18 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-28 00:33:18 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-28 00:33:18 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-28 00:33:18 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-28 00:33:18 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-28 00:33:19 INFO  Application:38 - push-notification app started
+2018-06-28 00:33:19 INFO  Application:40 - notification service up and running
+2018-06-28 00:36:58 INFO  Application:29 - Starting push-notification server
+2018-06-28 00:37:02 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-28 00:37:05 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-28 00:37:05 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-28 00:37:05 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-28 00:37:07 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-28 00:37:07 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-28 00:37:07 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-28 00:37:07 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-28 00:37:07 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-28 00:37:07 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-28 00:37:09 INFO  Application:39 - push-notification app started
+2018-06-28 00:37:09 INFO  Application:41 - notification service up and running
+2018-06-28 00:43:22 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:43:31 ERROR TokenValidationClient:30 - Authentication header not present in the request
+2018-06-28 00:44:58 INFO  Application:29 - Starting push-notification server
+2018-06-28 00:45:02 INFO  RecoveryDatabaseServiceImpl:31 - Simulated sleep
+2018-06-28 00:45:05 INFO  RecoveryDatabaseServiceImpl:38 - Initiating datastore creation
+2018-06-28 00:45:05 ERROR CreateDerbyStore:47 - Syntax error: Encountered "<EOF>" at line 1, column 129.
+2018-06-28 00:45:05 INFO  RecoveryDatabaseServiceImpl:40 - Data store creation done
+2018-06-28 00:45:06 INFO  ConfigurationBean:52 - Loading configurations
+2018-06-28 00:45:07 INFO  WebSocketConfigSockJs:23 - Enabling message broker for spring
+2018-06-28 00:45:07 INFO  WebSocketConfigSockJs:25 - Enabling application prefix for the destinations
+2018-06-28 00:45:07 INFO  WebSocketConfigSockJs:30 - Registering stomp endpoints for allowed origins:*
+2018-06-28 00:45:07 INFO  MessageBusListenerConfiguration:20 - Creating jms connection factory bean
+2018-06-28 00:45:07 INFO  MessageBusListenerConfiguration:29 - Creating activemq connection bean
+2018-06-28 00:45:07 INFO  Application:39 - push-notification app started
+2018-06-28 00:45:07 INFO  Application:41 - notification service up and running
+2018-06-28 00:45:44 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:48:15 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:49:03 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:50:33 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:51:38 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:52:00 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:54:24 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:58:09 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:58:21 INFO  MessageReceiver:18 - Worker identified for routingDefaultMessageListenerContainer-9
+2018-06-28 00:58:21 INFO  RouterThreadService:27 - Thread-10activated for routingActiveMQTextMessage {commandId = 5, responseRequired = false, messageId = ID:Sudheers-MBP-57809-1530126898983-6:1:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:Sudheers-MBP-57809-1530126898983-6:1:1:1, destination = queue://public, transactionId = null, expiration = 0, timestamp = 1530127701461, arrival = 0, brokerInTime = 1530127701461, brokerOutTime = 1530127701466, correlationId = null, replyTo = null, persistent = false, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 1184, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = {"arg":"Hello.. Testing","id":"1","timestamp"...ory":"user"}}
+2018-06-28 00:58:48 INFO  NotificationController:58 - Received request over http on the endpoint pnw
+2018-06-28 00:58:53 INFO  MessageReceiver:18 - Worker identified for routingDefaultMessageListenerContainer-2
+2018-06-28 00:58:53 INFO  RouterThreadService:27 - Thread-11activated for routingActiveMQTextMessage {commandId = 5, responseRequired = false, messageId = ID:Sudheers-MBP-57809-1530126898983-8:1:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:Sudheers-MBP-57809-1530126898983-8:1:1:1, destination = queue://public, transactionId = null, expiration = 0, timestamp = 1530127733802, arrival = 0, brokerInTime = 1530127733803, brokerOutTime = 1530127733804, correlationId = null, replyTo = null, persistent = false, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 1188, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = {"arg":"Hello.. Testing","id":"id1","timestam...ory":"user"}}

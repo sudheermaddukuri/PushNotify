@@ -44,7 +44,7 @@ public class NotificationController {
 	@MessageMapping("/pns")
 	public void sockjs(@Payload Notify nf) throws Exception {
 		logger.info("Received request over http on the endpoint pns");
-		logger.debug("Received message over the endpoint capns:" + "Payload:" + nf.toString());
+		logger.debug("Received message over the endpoint pns:" + "Payload:" + nf.toString());
 		Thread.sleep(3000);
 		if (!nf.getId().equals("") && !nf.getCategory().toString().equals(""))
 			this.simpleMessaging.convertAndSend("/topic/public/" + nf.getCategory().toString() + "/" + nf.getId(), nf);
@@ -73,5 +73,11 @@ public class NotificationController {
 	@RequestMapping("/stats")
 	public @ResponseBody WebSocketMessageBrokerStats showStats() {
 		return wsBrokerStats;
+	}
+	
+	@RequestMapping(value="/check", method = RequestMethod.GET)
+	@ResponseBody
+	public String check() {
+		return "CHECKED!!";
 	}
 }

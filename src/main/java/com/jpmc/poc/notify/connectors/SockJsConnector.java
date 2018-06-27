@@ -94,7 +94,7 @@ public class SockJsConnector {
 			session = stompClient.connect(ConfigurationBean.config.get(StringConstants.SOCK_JS_ENDPOINT),
 					new StompSessionHandlerAdapter() {
 					}).get(timeout, TimeUnit.SECONDS);
-			session.send("/app/capns", msg.getBytes());
+			session.send("/app/pns", msg.getBytes());
 		} catch (InterruptedException e) {
 			logger.error(e);
 		} catch (ExecutionException e) {

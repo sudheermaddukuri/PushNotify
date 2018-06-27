@@ -28,6 +28,6 @@ public class WebSocketConfigSockJs extends AbstractWebSocketMessageBrokerConfigu
 
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		logger.info("Registering stomp endpoints for allowed origins:" + ConfigurationBean.config.get(StringConstants.ORIGIN));
-		registry.addEndpoint("/capns").setAllowedOrigins(ConfigurationBean.config.get(StringConstants.ORIGIN)).withSockJS();
+		registry.addEndpoint("/pns").setAllowedOrigins(ConfigurationBean.config.get(StringConstants.ORIGIN)).withSockJS();
 	}
 }

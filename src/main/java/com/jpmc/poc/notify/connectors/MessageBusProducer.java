@@ -12,7 +12,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.log4j.Logger;
 
 /**
- * Message producer to the camessagebus
+ * Message producer to the pnsmessagebus
  * 
  *
  */
@@ -26,7 +26,7 @@ public class MessageBusProducer {
 	public void sendMessage(String msg, String dst) {
 		try {
 
-			ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("vm://camessagebus");
+			ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("vm://pnsmessagebus");
 			connection = connectionFactory.createConnection();
 			connection.start();
 

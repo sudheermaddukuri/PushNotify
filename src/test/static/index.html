@@ -15,13 +15,13 @@
         }
 
         function connect() {
-            var socket = new SockJS('http://localhost:8080/capns/');
+            var socket = new SockJS('http://localhost:8080/notification/');
             stompClient = Stomp.over(socket);
             stompClient.connect({}, function(frame) {
                 setConnected(true);
                 console.log('Connected: ' + frame);
                 stompClient.subscribe('/topic/public/id1', function(greeting){
-                	stompClient.send("/app/capnack", {}, JSON.stringify({ 'id': 'id1' }));
+                	stompClient.send("/app/pnack", {}, JSON.stringify({ 'id': 'id1' }));
                     showGreeting(greeting.body);
                 });
                 stompClient.subscribe('/topic/public/analyst', function(greeting){
@@ -43,7 +43,7 @@
 
         function sendName() {
             var name = document.getElementById('name').value;
-            stompClient.send("/app/capns", {}, JSON.stringify({ 'arg': name }));
+            stompClient.send("/app/pns", {}, JSON.stringify({ 'arg': name }));
         }
 
         function showGreeting(message) {

@@ -17,7 +17,7 @@ public class WebSocketConfigRaw implements WebSocketConfigurer{
 	protected RawWebSocketHandler webSocketHandler;
 
 	public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-		registry.addHandler(webSocketHandler, "/capnr").setAllowedOrigins("*");
+		registry.addHandler(webSocketHandler, "/pnr").setAllowedOrigins("*");
 		
 	}
 

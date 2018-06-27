@@ -13,9 +13,9 @@ public class TokenValidationClient {
 
 	public static Response authenticate(HttpHeaders headers) {
 		if (headers.get("push-notify-token") != null) {
-			String token = headers.get("push-notify-token").get(0);
-			//if (headers.get("push-notify-token").get(0).equals(DummyTokens.TOKEN)) {
-			if (verifyToken(token)) {
+			//String token = headers.get("push-notify-token").get(0);
+			if (headers.get("push-notify-token").get(0).equals(DummyTokens.TOKEN)) {
+			//if (verifyToken(token)) {
 				Response resp = new Response();
 				resp.setErrNErr(true);
 				resp.setMessage("Message Routed");

@@ -15,7 +15,7 @@
         }
 
         function connect() {
-            var socket = new SockJS('http://192.168.99.100:8080/capns/');
+            var socket = new SockJS('http://192.168.99.100:8080/pns/');
             stompClient = Stomp.over(socket);
             stompClient.connect({}, function(frame) {
                 setConnected(true);
@@ -42,7 +42,7 @@
 
         function sendName() {
             var name = document.getElementById('name').value;
-            stompClient.send("/app/capns", {}, JSON.stringify({ 'arg': name }));
+            stompClient.send("/app/pns", {}, JSON.stringify({ 'arg': name }));
         }
 
         function showGreeting(message) {

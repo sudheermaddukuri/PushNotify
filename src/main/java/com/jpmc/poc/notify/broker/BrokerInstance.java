@@ -24,9 +24,9 @@ public class BrokerInstance {
 			synchronized (BrokerInstance.class) {
 				if (brokerInstance == null) {
 					brokerInstance = new BrokerService();
-					brokerInstance.setBrokerName("camessagebus");
+					brokerInstance.setBrokerName("pnsmessagebus");
 					brokerInstance.setPersistent(true);
-					brokerInstance.setDataDirectory("canotificationdata");
+					brokerInstance.setDataDirectory("pnsnotificationdata");
 					try {
 						brokerInstance.setPersistenceAdapter(CustomPersistentAdapter.getInstance());
 					} catch (IOException e) {

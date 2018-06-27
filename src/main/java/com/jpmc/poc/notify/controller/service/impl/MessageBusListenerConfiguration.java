@@ -27,7 +27,7 @@ public class MessageBusListenerConfiguration {
     @Bean
     public ActiveMQConnectionFactory connectionFactory(){
     	logger.info("Creating activemq connection bean");
-    	ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("vm://camessagebus");
+    	ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("vm://pnsmessagebus");
         return connectionFactory;
     }
 }

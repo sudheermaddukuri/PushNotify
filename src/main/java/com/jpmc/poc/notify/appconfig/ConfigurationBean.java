@@ -53,7 +53,7 @@ public class ConfigurationBean {
 		if (endPoint != null)
 			config.put(StringConstants.SOCK_JS_ENDPOINT, endPoint);
 		else
-			config.put(StringConstants.SOCK_JS_ENDPOINT, "http://localhost:8080/capush/capns");
+			config.put(StringConstants.SOCK_JS_ENDPOINT, "http://localhost:8080/notification/capns");
 
 		if (origins != null)
 			config.put(StringConstants.ORIGIN, origins);

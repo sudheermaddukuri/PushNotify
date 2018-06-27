@@ -1,0 +1,26 @@
+----------------------------------------------------------------
+Thu Jun 28 00:44:58 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0164-42ab-94dc-ffffb97760c1 
+on database directory /Users/sudheermaddukuri/git/PushNotify/activemq-data/derbydb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/sudheermaddukuri/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=/Users/sudheermaddukuri/git/PushNotify
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.3
+derby.system.home=/Users/sudheermaddukuri/git/PushNotify/activemq-data
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jun 28 00:45:05 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 5b678054-0164-42ab-94dc-ffffb97760c1 
+on database directory /Users/sudheermaddukuri/git/PushNotify/activemq-data/capushnotif.recovery with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/sudheermaddukuri/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=/Users/sudheermaddukuri/git/PushNotify
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.3
+derby.system.home=/Users/sudheermaddukuri/git/PushNotify/activemq-data
+Database Class Loader started - derby.database.classpath=''

@@ -1,5 +1,6 @@
 package com.jpmc.poc.notify.controller.service.impl;
 
+import org.apache.activemq.console.Main;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.google.gson.Gson;
 import com.jpmc.poc.notify.connectors.MessageBusProducer;
 import com.jpmc.poc.notify.domain.Notify;
+import com.jpmc.poc.notify.domain.Notify.Category;
 import com.jpmc.poc.notify.domain.Response;
 
 @Service
@@ -35,5 +37,13 @@ public class MessageProducerService {
 			resp.setMessage("Message Routed");
 			return resp;
 		}
+	}
+	
+	public static void main(String[] args) {
+		Notify notify = new Notify();
+		notify.setArg("Hello");
+		notify.setId("11");
+		notify.setCategory(Category.user);
+		System.out.println(new Gson().toJson(notify));
 	}
 }
