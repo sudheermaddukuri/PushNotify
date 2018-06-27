@@ -1,1 +1,1 @@
-CA Push Notification Application
+Notification Services Application

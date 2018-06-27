@@ -12,9 +12,9 @@ public class TokenValidationClient {
 	private static final Logger logger = Logger.getLogger(TokenValidationClient.class);
 
 	public static Response authenticate(HttpHeaders headers) {
-		if (headers.get("ca-push-notify-token") != null) {
-			String token = headers.get("ca-push-notify-token").get(0);
-			//if (headers.get("ca-push-notify-token").get(0).equals(DummyTokens.TOKEN)) {
+		if (headers.get("push-notify-token") != null) {
+			String token = headers.get("push-notify-token").get(0);
+			//if (headers.get("push-notify-token").get(0).equals(DummyTokens.TOKEN)) {
 			if (verifyToken(token)) {
 				Response resp = new Response();
 				resp.setErrNErr(true);

@@ -1,4 +1,4 @@
 VOLUME /tmp
-ADD ca-push-notify-0.0.1-SNAPSHOT.jar app.jar
+ADD push-notify-0.0.1-SNAPSHOT.jar app.jar
 RUN sh -c 'touch /app.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]

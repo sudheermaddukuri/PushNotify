@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ca Push Notification Test Client</title>
+    <title>Push Notification Test Client</title>
     <script src="sockjs-0.3.4.js"></script>
     <script src="stomp.js"></script>
     <script type="text/javascript">
@@ -15,7 +15,7 @@
         }
 
         function connect() {
-            var socket = new SockJS('http://localhost:8080/capush/capns/');
+            var socket = new SockJS('http://localhost:8080/notificationService/pns/');
             stompClient = Stomp.over(socket);
             stompClient.connect({}, function(frame) {
                 setConnected(true);
